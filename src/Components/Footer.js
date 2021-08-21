@@ -8,7 +8,7 @@ const Footer = () => {
             <h1 class='ciao'>Thank you for your time. 👍</h1>
 			<button class="btn glass-card">say hi! 👋</button>
             <div class='contacts'>
-                <a className='footer-a insta' href="https://www.instagram.com/hiphip_jorgep/">
+                <a className='footer-a insta' href="https://www.instagram.com/hiphip_jorge__/">
                     Instagram
                 </a>
                 <a className='footer-a' href="mailto:perez.j1477@gmail.com">
