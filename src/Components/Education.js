@@ -67,6 +67,7 @@ const Education = () => {
 			</div>
 
 			<div class="fav-courses">
+				<h1 class="fav-course-title">Favorite Courses</h1>
 				<ul class="course-cards">
 					<li class="course">
 						<svg

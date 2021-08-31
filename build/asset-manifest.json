@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9701910.chunk.css",
-    "main.js": "/static/js/main.b00711ed.chunk.js",
-    "main.js.map": "/static/js/main.b00711ed.chunk.js.map",
+    "main.css": "/static/css/main.98becce5.chunk.css",
+    "main.js": "/static/js/main.6af46f09.chunk.js",
+    "main.js.map": "/static/js/main.6af46f09.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ba5f1281.js",
     "runtime-main.js.map": "/static/js/runtime-main.ba5f1281.js.map",
     "static/js/2.e683dedc.chunk.js": "/static/js/2.e683dedc.chunk.js",
@@ -10,16 +10,17 @@
     "static/js/3.bf1c1e43.chunk.js": "/static/js/3.bf1c1e43.chunk.js",
     "static/js/3.bf1c1e43.chunk.js.map": "/static/js/3.bf1c1e43.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f9701910.chunk.css.map": "/static/css/main.f9701910.chunk.css.map",
+    "static/css/main.98becce5.chunk.css.map": "/static/css/main.98becce5.chunk.css.map",
     "static/js/2.e683dedc.chunk.js.LICENSE.txt": "/static/js/2.e683dedc.chunk.js.LICENSE.txt",
     "static/media/JP-Logo_light-mode.3c8262f3.svg": "/static/media/JP-Logo_light-mode.3c8262f3.svg",
     "static/media/main.css": "/static/media/hero.f9b05b23.svg",
+    "static/media/square-regular.ef9534db.svg": "/static/media/square-regular.ef9534db.svg",
     "static/media/utd-courtyard.d05aa1d9.png": "/static/media/utd-courtyard.d05aa1d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ba5f1281.js",
     "static/js/2.e683dedc.chunk.js",
-    "static/css/main.f9701910.chunk.css",
-    "static/js/main.b00711ed.chunk.js"
+    "static/css/main.98becce5.chunk.css",
+    "static/js/main.6af46f09.chunk.js"
   ]
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.css'
+import square from '../images/square-regular.svg'
 
 const WhatsNext = () => {
     return (
@@ -11,29 +12,68 @@ const WhatsNext = () => {
 				<li class="indicator current"></li>
 			</ul>
 
-			<h1 class="section-header">What's Next</h1>
-			<h2>For Me</h2>
-			<p>
-				Currently, I am reviewing my data structures. I like to improve upon my
-				fundamentals and seek areas that I overlooked in my first go-around. In
-				addition, I am going over the introduction to ML and diving deeper with
-				more intensive projects.
-			</p>
+			<h1 class="section-header">What I'm Up To</h1>
+			<div class='todo-list'>
+				<h2 class='todo-title'>Personal Development</h2>
+				<ul class="todo">
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Reading "An Introduction to Statistical Learning"</li>
+					</div>	
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Cycling through data structures and algorithms material</li>
+					</div>
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Python for Data Science and ML Bootcamp</li>
+					</div>
+				</ul>
 
-			<h2>For this site</h2>
-			<h3>Version 2</h3>
-			<ul class="todo">
-				<li class='list-item'>Animations!</li>
-				<li class='list-item'>
-					Add missing content to projects in the form of looping video on hover
-				</li>
-			</ul>
-			<h3>Version 3</h3>
-			<ul class="todo">
-				<li class='list-item'>Improve content on this section and footer</li>
-				<li class='list-item'>Add socials</li>
-				<li class='list-item'>Add like button and feedback section.</li>
-			</ul>
+				<h2 class='todo-title'>This site</h2>
+				<h3 class='todo-sub'>Version 3</h3>
+				<ul class="todo">
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Animations!</li>
+					</div>
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Add relavent socials</li>
+					</div>
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Add like button and feedback section.</li>
+					</div>
+				</ul>
+				<h3 class='todo-sub'>Version 4</h3>
+				<ul class="todo">
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Think of valuable content for this site</li>
+					</div>
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Add a backend for this list and other content</li>
+					</div>
+				</ul>
+				
+				<h2 class='todo-title'>Other</h2>
+				<ul class="todo">
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Web App for a restuarant that displays their business information and products</li>
+					</div>
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Learning French</li>
+					</div>
+					<div class='line'>
+						<img class='box' src={square} alt='box'/>
+						<li class='list-item'>Bettering my uke skills (;</li>
+					</div>
+				</ul>
+			</div>
         </div>
     )
 }

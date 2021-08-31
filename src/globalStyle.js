@@ -16,10 +16,15 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         background: #faf9f6;
         color: #5fe0b7;
     }
+
 
     .indicator-container {
         display: flex;
@@ -28,26 +33,11 @@ export const GlobalStyle = createGlobalStyle`
 
     .indicator {
         width: 5px;
-        height: 20px;
+        height: 25px;
         background: #1b1b1b;
     }
 
     .current {
         background: #5fe0b7;
     }
-
-    .section-header {
-        margin: 1em 0;
-        color: #1d1d1d;
-        text-align: center;
-        margin-bottom: 0.5em;
-    }
-
-    .intro {
-        font-size: 12px;
-        line-height: 1.4em;
-        margin: 1em auto 2em;
-        color: #3d3d3d;
-    }
-
 `;
