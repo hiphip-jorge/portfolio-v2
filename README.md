@@ -1,6 +1,6 @@
 # Portfolio Webpage
 
-### version 1
+### version 2
 
 Although still naive, here is displayed some of my projects over the years. <br>
 As I build more, I will be updating my progress here, all while adding more meaningful <br>
@@ -10,13 +10,14 @@ expertise.
 
 ## Future Updates Will Include
 
-- video loop for project content
 - animations
-- feedback functionality to 'say hi' button
+- feedback functionality to 'say hi' button / feedback / contact section
+- include valuable content
+- include backend if necessary
 
 ## Included Files Worth Mentioning
 
-- index.html
-- css directory: contains sass file and linking css file
-- portfolio-v3.fig: mockup of initial web page renditions
-- images directory: all images used in web page, references found in index.html
+- build directory: contains files necessary for deployment
+- node module directory; contains files necessary for React
+- public directory: contains index.html as well as iconography
+- src directory: contains all the source code including images and components
